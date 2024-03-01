@@ -25,9 +25,8 @@
     background-position: center;
     background-size: cover; 
 }
-
 .rotating {
-    animation: rotating 100s linear infinite;
+    animation: rotating 500s linear infinite;
   }
 @keyframes rotating {
     from {

@@ -14,7 +14,7 @@ export default function Planette(props) {
     return (
         <div className='w-full h-[800px] flex justify-center items-center'>
             <div className='w-1/2  h-full gap-24 flex items-center justify-center flex-col'>
-                <h1 className='text-4xl  text-[#494A53]'>01 <span className='text-white'> PICK YOUR DESTINATION</span></h1>
+                <h1 className='text-4xl tracking-widest text-[#494A53]'>01 <span className='text-white tracking-widest'> PICK YOUR DESTINATION</span></h1>
                 <img className='w-[33rem] rotating rounded-full overflow-hidden' src={imgplanette[id]} alt="" />
             </div>
             <div className=' w-1/2 h-30 flex flex-col items-center justify-center gap-4'>

@@ -16,16 +16,14 @@ export default function Navbar(props) {
                     <div className='w-[86%] h-[2px] border-b-[2px]'></div>
                 </div>
             </div>
-            
             <div className='divnav w-[64.5%] h-full backdrop-blur-sm bg-white brightness-110 flex items-center justify-center'>
                 <nav className='flex me-6 items-center justify-around w-[70%] h-full'>
                     <div className=''><Link className='text-white text-xl' to="/Planette">00 HOME</Link></div>
                     <div><Link className='text-white text-xl' to="/Destination/Planete/0">01 DESTINATION</Link></div>
-                    <div><Link className='text-white text-xl' to="/Crew">02 CREW</Link></div>
-                    <div><Link className='text-white text-xl' to="/Technology">03 TECHNOLOGY</Link></div>
+                    <div><Link className='text-white text-xl' to="/Crew/Crewcarousel/0">02 CREW</Link></div>
+                    <div><Link className='text-white text-xl' to="/Technology/Technologycarousel/0">03 TECHNOLOGY</Link></div>
                 </nav>
             </div>
-            
         </div>
     )
 }
