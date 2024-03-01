@@ -6,9 +6,35 @@
 
 .divnav{
     background: rgba(255, 255, 255, 0.06);
-    
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.1px);
     -webkit-backdrop-filter: blur(5.1px);
-    
 }
+.bgdesti{
+    background-image: url(./assets/img/destination/background-destination-desktop.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+.bgcrew{
+    background-image: url(./assets/img/crew/background-crew-desktop.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+.bgtechno{
+    background-image: url(./assets/img/technology/background-technology-desktop.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+.rotating {
+    animation: rotating 100s linear infinite;
+  }
+@keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } 
+

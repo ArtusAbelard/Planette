@@ -6,7 +6,7 @@ export default function Technology(props) {
     
 
     return (
-        <div className='w-screen overflow-x-hidden h-screen bg-slate-300'>
+        <div className='bgtechno w-screen overflow-x-hidden h-screen flex flex-col bg-slate-300'>
             <Navbar></Navbar>
         </div>
     )

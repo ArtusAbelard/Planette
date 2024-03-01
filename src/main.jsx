@@ -9,6 +9,7 @@ import Body from "./Compoments/Body";
 import Destination from "./Compoments/Destination";
 import Crew from "./Compoments/Crew";
 import Technology from "./Compoments/Technology";
+import Planete from "./Compoments/Planete";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,12 @@ const router = createBrowserRouter([
   {
     path: "/Destination",
     element: <Destination></Destination>,
+    children:[
+      {
+        path:"/Destination/Planete/:id",
+        element: <Planete></Planete>
+      }
+    ] 
   },
   {
     path: "/Crew",

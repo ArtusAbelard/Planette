@@ -6,7 +6,7 @@ export default function Body(props) {
     
 
     return (
-        <div className='w-screen overflow-x-hidden h-screen flex flex-col bg-slate-600 bghome'>
+        <div className='w-screen overflow-hidden h-screen flex flex-col bg-slate-600 bghome'>
             <Navbar></Navbar>
             <div className='w-full h-[800px] flex justify-center items-center'>
                 <div className='w-1/2 h-full  flex items-center justify-center flex-col'>
